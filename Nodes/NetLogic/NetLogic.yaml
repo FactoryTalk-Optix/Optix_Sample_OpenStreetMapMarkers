@@ -1,0 +1,14 @@
+Name: NetLogic
+Type: NetLogicCategoryFolder
+Children:
+- Name: StartWebServer
+  Type: NetLogic
+  Children:
+  - Name: MapFile
+    Type: BaseDataVariableType
+    DataType: ResourceUri
+    Value: "ns=20;%PROJECTDIR%/OpenStreetMap/map.html"
+  - Name: ListenerPort
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 4088
